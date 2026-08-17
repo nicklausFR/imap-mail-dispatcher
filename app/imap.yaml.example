@@ -1,0 +1,5 @@
+imap_server: imap.example.com
+imap_port: 993
+imap_user: user@example.com
+imap_folder_inbox: INBOX
+junk_folder: Junk
