@@ -1,0 +1,13 @@
+Receipts:
+  - subject: "invoice"
+  - subject: "receipt"
+
+Security:
+  - subject: "verification code"
+  - subject: "new sign-in"
+  - subject: "newsletter"
+    except: true
+
+Orders:
+  - subject: "order"
+  - from: "@shop.example"
