@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration
+/app/imap.yaml
+/app/rules.yaml
+
+# Runtime / learned data
+/app/spam_whitelist.yaml
+/app/spam_junk_state.json
+/app/spam_status.json
+/app/spam_model.pkl
+/app/vectorizer.pkl
+
+# Logs and backups
+*.log
+*.bak
+*.bak-*
+
+# Private deployment material
+/private-deployment/
+DEPLOYMENT.md
+deploy_*
+migrate_*
+install_encrypted_imap_credential*
