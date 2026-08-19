@@ -115,3 +115,9 @@ Scheduling and service management are deliberately left outside this repository.
 Local mailbox configuration, learned spam data, logs, credentials, and host-specific deployment scripts are excluded through `.gitignore`.
 
 Before publishing a fork, verify that no personal configuration or runtime data has been force-added to Git.
+
+## License
+
+Copyright (C) 2026 nicklausFR
+
+GPL-3.0-or-later. See [LICENSE](LICENSE).
